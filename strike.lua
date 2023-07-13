@@ -18,10 +18,10 @@ Citizen.CreateThread(function()
 end)
 
 function Strike(coords, ped)
-	local model = GetHashKey(Config.Vehicle.Model)
+	local model = Config.Vehicle.Model
 	LoadModel(model)
 
-	local pilotModel = GetHashKey(Config.Vehicle.Pilot)
+	local pilotModel = Config.Vehicle.Pilot
 	LoadModel(pilotModel)
 	
 	local startTime = GetGameTimer()
