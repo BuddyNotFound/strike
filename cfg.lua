@@ -1,7 +1,7 @@
 Config = {
 	Vehicle = {
-		Pilot = "s_m_m_pilot_02",
-		Model = "lazer",
+		Pilot = `s_m_m_pilot_02`,
+		Model = `lazer`,
 		Range = 1250.0,
 		Height = 215.0,
 		Speed = 95.0,
